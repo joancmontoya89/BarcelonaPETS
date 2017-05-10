@@ -3,11 +3,12 @@ package montoya.girona.joan.afc.barcelonapets;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class ShowActivity extends ActionBarActivity {
+public class ShowActivity extends AppCompatActivity {
 
     private final static String LOG_TAG = ShowActivity.class.getSimpleName().toString();
 
@@ -44,6 +45,22 @@ public class ShowActivity extends ActionBarActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        }
+        else if (id == R.id.action_lost_dogs) {
+            //TODO go to the fragment to see all lost dogs
+            //TODO create the fragment to see all lost dogs
+        }
+        else if (id == R.id.action_lost_cats) {
+            //TODO go to the fragment to see all lost cats
+            //TODO create the fragment to see all lost cats
+        }
+        else if (id == R.id.action_street_dog) {
+            //TODO go to the fragment to upload a dog you have found in the street
+            //TODO create the fragment  to upload a dog you have found in the street
+        }
+        else if (id == R.id.action_street_cat) {
+            //TODO go to the fragment to upload a cat you have found in the street
+            //TODO create the fragment to upload a cat you have found in the street
         }
 
         return super.onOptionsItemSelected(item);
