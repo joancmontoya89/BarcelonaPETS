@@ -10,8 +10,12 @@
     <string name="adoptats">Adoptats:</string>
     <string name="title_activity_show">ShowActivity</string>
     <string name="dogTittle">Dogs statistics</string>
+    <string name="lost_animals">See lost animals</string>
     <string name="lost_dogs">Lost dogs</string>
     <string name="lost_cats">Lost cats</string>
+    <string name="street_animal">Upload animal</string>
     <string name="street_dog">Upload dog in the street</string>
     <string name="street_cat">Upload cat in the street</string>
+    <string name="title_activity_lost">LostActivity</string>
+    <string name="title_activity_street">StreetActivity</string>
 </resources>

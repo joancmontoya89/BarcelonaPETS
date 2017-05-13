@@ -4,20 +4,14 @@
     tools:context="montoya.girona.joan.afc.barcelonapets.ShowActivity">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
-    <item android:id="@+id/action_lost_dogs"
-        android:title="@string/lost_dogs"
+    <!--option to see the list of animals found in the street-->
+    <item android:id="@+id/action_lost"
+        android:title="@string/lost_animals"
         android:orderInCategory="100"
         app:showAsAction="never" />
-    <item android:id="@+id/action_lost_cats"
-        android:title="@string/lost_cats"
-        android:orderInCategory="100"
-        app:showAsAction="never" />
-    <item android:id="@+id/action_street_dog"
-        android:title="@string/street_dog"
-        android:orderInCategory="100"
-        app:showAsAction="never" />
-    <item android:id="@+id/action_street_cat"
-        android:title="@string/street_cat"
+    <!--option to upload a photo of an animal found in the street-->
+    <item android:id="@+id/action_street"
+        android:title="@string/street_animal"
         android:orderInCategory="100"
         app:showAsAction="never" />
 </menu>

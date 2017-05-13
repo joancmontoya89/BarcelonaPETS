@@ -58,6 +58,14 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+        else if (id == R.id.action_lost) {
+            //TODO go to the fragment to see all lost dogs & cats
+            //TODO create the fragment to see all lost dogs & cats
+        }
+        else if (id == R.id.action_street) {
+            //TODO go to the fragment to upload a dog/cat you have found in the street
+            //TODO create the fragment  to upload a dog/cat you have found in the street
+        }
 
         return super.onOptionsItemSelected(item);
     }
